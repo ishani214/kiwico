@@ -1,0 +1,171 @@
+body{
+    background-color: #d9fffc;
+    font-family: Calibri;
+}
+
+.main-body {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header-div {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.bold-style{
+    font-weight: 900;
+}
+.hr-container{
+    text-align: center;
+}
+.hr-div {
+    width: 100%;
+    margin: 0 auto;
+}
+.nav-1{
+    display: inline-block;
+}
+
+#nva-1 {
+    width: 65px;
+    height: 35px;
+    background: url(http://icdn.kiwicrate.com/site/home/why-kiwico-sprite.png) no-repeat -1px -44px;;
+}
+
+
+
+#nva-2 {
+    background: url('http://icdn.kiwicrate.com/site/home/why-kiwico-sprite.png') no-repeat -66px -2px;
+    width: 56px;
+    height: 39px;
+}
+
+
+#nva-3 {
+    width: 55px;
+    height: 37px;
+    background: url(http://icdn.kiwicrate.com/site/home/why-kiwico-sprite.png) no-repeat -121px 0;
+}
+
+#nva-4 {
+    width: 68px;
+    height: 36px;
+    background: url(http://icdn.kiwicrate.com/site/home/why-kiwico-sprite.png) no-repeat -179px 0;
+}
+
+#nva-5 {
+    width: 65px;
+    height: 42px;
+    background: url(http://icdn.kiwicrate.com/site/home/why-kiwico-sprite.png) no-repeat -251px 0;
+}
+
+#nva-6 {
+    width: 36px;
+    height: 35px;
+    background: url(http://icdn.kiwicrate.com/site/home/why-kiwico-sprite.png) no-repeat -320px 0;
+}
+
+.nav-icons{
+    display: inline-block;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-right: 25px;
+    background-color: white;
+    -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+    box-shadow: 2px 2px 2px 1px rgba(179, 179, 179, 0.5);
+}
+
+nav-icons:last-child {
+    margin-right: 0px;
+}
+#nav-1-style{
+    background-color: #40dcbfeb;
+    color: white;
+    padding: 10px 20px;
+}
+
+div#nav-2-style {
+    padding: 10px;
+    color: #40dcbfeb;
+}
+
+.nav-icons-div {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.nav-details-div{
+
+    margin-top: 50px;
+}
+
+.display-block-class{
+    display: block;
+}
+
+.hidden-class{
+    display: none;
+}
+
+.nav-content {
+    padding: 20px 10px 20px 400px;
+    display: inline-block;
+    width: 65%;
+    vertical-align: top;
+    margin-top: 20px;
+    font-size: 2rem;
+    background-color: white;
+}
+
+.nav-image {
+    position: absolute;
+    width: 30%;
+    display: inline-block;
+    margin-right: 25px;
+    top: 98px;
+}
+
+img.nav-image {
+    width: 350px;
+    position: relative;
+}
+@media (min-width: 400px) and (max-width: 767px) {
+    .nav-content {
+        display: block;
+        width: auto;
+        margin: 0px 10px;
+border-radius: 5px;
+        padding: 25px;
+        font-size: 1.5rem;
+
+    }
+    .nav-image {
+        display: none;
+    }
+    .arrow-up {
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid white;
+        margin: 0 auto;
+    }
+
+
+
+}
+
+/*!* Portrait tablet to landscape and desktop *!*/
+@media (min-width: 768px) and (max-width: 979px) {
+
+
+}
+
+/*!* Landscape phone to portrait tablet *!*/
+/*!* Landscape phones and down *!*/
+@media (max-width: 480px) {
+
+}
